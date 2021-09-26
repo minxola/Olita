@@ -1,7 +1,27 @@
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+html{
+    background-color: #013440;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h1{
+    color: #F58766;
+}
+p{
+    color: #fff;
+    line-height: 20px;
+}
 h1 span{
     color:red;
+}
+.video{
+    padding: 10px 0;
 }
