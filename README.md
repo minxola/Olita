@@ -1,3 +1,3 @@
-- :kissing_heart: Hola, Olita
-- :heartbeat: Mi amorcito
-- :eyes: Te estoy viendo
+- 😘 Hola, Olita
+- 💓 Mi amorcito
+- 👀 Te estoy viendo
