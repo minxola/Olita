@@ -2,25 +2,63 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 1px dotted magenta;
 }
 
 body{
-    background-color: #202443;
+    background-color: #CAB8FF;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header{
-    background-color: #2E325C;
+/* CARD 1 */
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 0;
+}
+.titulo p{
+    color: #99154E;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-variant: small-caps;
+    font-weight: 600;
+}
+.welcome h1{
+    color: #11324D;
 }
 
-footer{
-    background-color: #2E325C;
+/* CARD 2 */
+.video{
+    margin: 25px 0;
+    display: flex;
+    justify-content: center;
 }
 
 .love{
-    color:red;
+    color:crimson;
 }
-.video{
-    padding: 10px 0;
+
+/* FOOTER */
+footer{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+.msg{
+    border: 1px solid #F38BA0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.msg p{
+    color: #716F81;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.msg p:hover{
+    color: crimson;
 }
