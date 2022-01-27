@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: 1px dotted magenta;
 }
 
 body{
@@ -40,15 +41,13 @@ body{
 
 /*MENSAJE*/
 .showMessage button{
-    padding: 0 10px;
-    width: 60px;
-    height: 60px;
+    padding: 10px 0 10px 0;
     font-size: 40px;
+    width: 75px;
     border: 1px dotted crimson;
-    border-radius: 100%;
+    border-radius: 50%;
     color: #D91438;
     background-color: #FFF587;
-
 }
 
 .showMessage button:hover{
