@@ -41,10 +41,12 @@ body{
 /*MENSAJE*/
 .showMessage button{
     padding: 0 10px;
-    font-size: 36px;
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
     border: 1px dotted crimson;
-    border-radius: 50%;
-    color: crimson;
+    border-radius: 100%;
+    color: #D91438;
     background-color: #FFF587;
 
 }
