@@ -7,10 +7,13 @@
 }
 
 body{
-    background-color: #CAB8FF;
+    background-color: #9890e3;
+    background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
+
+
 
 /* CARD 1 */
 
@@ -39,19 +42,29 @@ body{
 }
 
 /*MENSAJE*/
-.showMessage button{
-    padding: 10px 0 10px 0;
-    font-size: 40px;
-    width: 75px;
-    border: 1px dotted crimson;
+.showMessage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button{
+    width: 60px;
+    height: 60px;
+    border: 2px solid #fff;
     border-radius: 50%;
-    color: #D91438;
-    background-color: #FFF587;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.showMessage button:hover{
-    background-color: #FF8C64;
-    border: 1px solid #2E038C;
+.button:hover{
+    border: 2px solid #2E038C;
+}
+.button img{
+    width: 60px;
+    height: 60px;
+
 }
 
 /* PHASE */
@@ -81,4 +94,12 @@ footer{
     color: #6f7181;
     font-size: 14px;
     font-weight: 500;
+}
+
+/*VIDEO*/
+video{
+    width: 100%;
+}
+.media{
+    padding: 5px;
 }

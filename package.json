@@ -1,0 +1,27 @@
+{
+  "name": "olita",
+  "version": "1.0.0",
+  "description": "This is a test site",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minxola/Olita.git"
+  },
+  "keywords": [
+    "javascript",
+    "site",
+    "testing"
+  ],
+  "author": "minxola <reminxola69@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/minxola/Olita/issues"
+  },
+  "homepage": "https://github.com/minxola/Olita#readme",
+  "devDependencies": {
+    "live-server": "^1.1.0"
+  }
+}
