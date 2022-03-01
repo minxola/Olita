@@ -12,14 +12,94 @@ const song_author = document.querySelector('.song_author');
 //playlist
 const playlist = [
     {
-        author: 'LP',
-        name: 'Lost On You',
-        id: 'hn3wJ1_1Zsg',
+        author: 'Enrique Iglesias',
+        name: 'Nunca te olvidare',
+        id: 'pRrjt4htXlE',
     },
     {
         author: 'Carla Morrison',
         name: 'Disfruto',
         id:'_ruEj-XK1lA',
+    },
+    {
+        author: 'Dyango',
+        name: 'Corazon Mágico',
+        id: 'SQtAwglgLeI'
+    },
+    {
+        author: 'Morat',
+        name: 'Yo contigo, tu conmigo',
+        id: 'xZzM9QtLuLM',
+    },
+    {
+        author: 'Tones and I',
+        name: 'Dance Monkey',
+        id: '1__CAdTJ5JU',
+    },
+    {
+        author: 'Pedro Capó',
+        name: 'Calma',
+        id: 'CrFJXw5SIbo',
+    },
+    {
+        author: 'LP',
+        name: 'Lost On You',
+        id: 'wDjeBNv6ip0',
+    },
+    {
+        author: 'Alvaro Soler',
+        name: 'Sofía',
+        id: 'qaZ0oAh4evU',
+    },
+    {
+        author: 'Avicii, Kygo, Sandro Cavazza',
+        name: 'Forever yours',
+        id: 'uYlYsvB-qbk',
+    },
+    {
+        author: 'Alvaro Solver',
+        name: 'El mismo sol',
+        id: 'srPJ-s5uMbI',
+    },
+    {
+        author: 'Carla Morrison',
+        name: 'Disfruto remix',
+        id: '5LgM6CvXrgk',
+    },
+    {
+        author: 'Ingratax',
+        name: 'Paris',
+        id: '65DZ9BYskdE',
+    },
+    {
+        author: 'Ozuna, Wisin, Reik',
+        name: 'No me acostumbro',
+        id: 'C1uZlcvlUoM',
+    },
+    {
+        author: 'TheFatRat',
+        name: 'We will meet again',
+        id: 'hJqYc62NCKo',
+    },
+    {
+        author: 'Master KG',
+        name: 'Jerusalema',
+        id: 'Ci3TMqWfNLs',
+    },
+    {
+        author: 'Natalia Lafourcade',
+        name: 'Hasta la Raíz',
+        id: 'IKmPci5VXz0',
+    },
+    {
+        author: 'La Factoria',
+        name: 'Moriré',
+        id: 'z20UZ2RAdNI',
+    },
+    {
+        author: 'Alex Soto',
+        name: 'Hombre muerto',
+        id: 'wfu_N69jqXc',
     }
 ]
 
@@ -32,8 +112,8 @@ let totalVideos = playlist.length - 1;
 var player;
 function onYouTubeIframeAPIReady() {
     player = new YT.Player('player', {
-    height: '360',
-    width: '640',
+    height: '315',
+    width: '560',
     playerVars: {
         'autoplay': 1,
         'controls': 0,
@@ -61,10 +141,6 @@ function onPlayerReady(event) {
  //    the player should play for six seconds and then stop.
 //var done = false;
 function onPlayerStateChange(event) {
-    /* if (event.data == YT.PlayerState.PLAYING && !done) {
-    setTimeout(stopVideo, 30000);
-    done = true;
-    } */
     videoStatus = event.data;
 
     //video terminó de reproducirse

@@ -17,9 +17,8 @@ const complemento = [
     "me encantas",
     "me gustas",
     "me emocionas",
-    "me excitas",
-    "me loqueas",
     "te quiero conmigo",
+    "amorcito de mi vida"
 ]
 
 function showMessage(){
@@ -32,3 +31,6 @@ function showMessage(){
     firstMsg.innerText = phraseR;
     secondMsg.innerText = complementoR;
 }
+
+const button = document.querySelector('.button');
+    button.addEventListener('click', showMessage);
