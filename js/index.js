@@ -7,6 +7,11 @@ const frases = [
     "Mi Musa",
     "Bonita",
     "Hermosa",
+    "Amorcito",
+    "Vidita",
+    "Olita Mamacita",
+    "Buena moza",
+    "Hermosita"
 ]
 
 const complemento = [
@@ -18,6 +23,10 @@ const complemento = [
     "me gustas",
     "me emocionas",
     "te quiero conmigo",
+    "te estoy viendo",
+    "te deseo",
+    "me gustas mucho",
+    "amorcito mío",
     "amorcito de mi vida"
 ]
 
