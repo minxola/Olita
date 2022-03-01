@@ -27,11 +27,6 @@ const playlist = [
         id: 'SQtAwglgLeI'
     },
     {
-        author: 'Morat',
-        name: 'Yo contigo, tu conmigo',
-        id: 'xZzM9QtLuLM',
-    },
-    {
         author: 'Tones and I',
         name: 'Dance Monkey',
         id: '1__CAdTJ5JU',
