@@ -57,11 +57,6 @@ const playlist = [
         id: 'srPJ-s5uMbI',
     },
     {
-        author: 'Carla Morrison',
-        name: 'Disfruto remix',
-        id: '5LgM6CvXrgk',
-    },
-    {
         author: 'Ingratax',
         name: 'Paris',
         id: '65DZ9BYskdE',
@@ -85,11 +80,6 @@ const playlist = [
         author: 'Natalia Lafourcade',
         name: 'Hasta la Raíz',
         id: 'IKmPci5VXz0',
-    },
-    {
-        author: 'La Factoria',
-        name: 'Moriré',
-        id: 'z20UZ2RAdNI',
     },
     {
         author: 'Alex Soto',
