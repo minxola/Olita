@@ -7,8 +7,9 @@
 }
 
 body{
-    background-color: #9890e3;
-    background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+    background-color: #000000;
+/*     background-color: #9890e3;
+    background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%); */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
@@ -34,6 +35,10 @@ main{
 }
 .titulo h1{
     color: #11324D;
+}
+
+.song_author, .song_title{
+    color: #ffffff;
 }
 
 /* CARD 2 */

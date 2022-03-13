@@ -11,7 +11,8 @@ const frases = [
     "Vidita",
     "Olita Mamacita",
     "Buena moza",
-    "Hermosita"
+    "Hermosita",
+    "Flaquita"
 ]
 
 const complemento = [
@@ -27,7 +28,11 @@ const complemento = [
     "te deseo",
     "me gustas mucho",
     "amorcito mío",
-    "amorcito de mi vida"
+    "amorcito de mi vida",
+    "Te hecho de menos",
+    "pienso en ti",
+    "quier verte",
+    "corazón mío"
 ]
 
 function showMessage(){
